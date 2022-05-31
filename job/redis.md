@@ -117,7 +117,7 @@ Redis 高可用三种部署方式：主从模式，哨兵模式，集群模式
 &emsp;&emsp; <b>哨兵模式</b>，由一个或多个Sentinel实例组成的Sentinel系统，它可以监视所有的Redis主节点和从节点，并在被监视的主节点进入下线状态时，自动将下线主服务器属下的某个从节点升级为新的主节点。但是呢，一个哨兵进程对Redis节点进行监控，就可能会出现问题（单点问题），因此，可以使用多个哨兵来进行监控Redis节点，并且各个哨兵之间还会进行监控。
 
 
-![](..\public\image\redis\sentinel.jpg)
+![](/public/image/redis/sentinel.jpg)
 
 </br>
 
@@ -151,7 +151,7 @@ Redis 高可用三种部署方式：主从模式，哨兵模式，集群模式
 &emsp;&emsp;  一个Redis集群由多个节点组成，各个节点之间是怎么通信的呢？通过Gossip  [ˈɡɑːsɪp] 协议！
 
 &emsp;&emsp;  Redis Cluster集群通过Gossip协议进行通信，节点之间不断交换信息，交换的信息内容包括节点出现故障、新节点加入、主从节点变更信息、slot信息等等。常用的Gossip消息分为4种，分别是：ping、pong、meet、fail。
-![](..\public\image\redis\Gossip.jpg)
+![](/public/image/redis/Gossip.jpg)
 
 
 
