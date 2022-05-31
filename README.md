@@ -12,6 +12,7 @@
 * [多线程](./面试/多线程.md)
 * [常见算法](./面试/算法.md)
 * [数据库](./面试/数据库.md)
+* [Redis](./面试/redis.md)
 
 # 应用框架
 * [ASP.NET Boilerplate](https://github.com/aspnetboilerplate/aspnetboilerplate) ![GitHub Star](https://img.shields.io/github/stars/aspnetboilerplate/aspnetboilerplate) - 现代ASP.NET MVC web应用程序的入门，包含最佳实践和最流行的工具。
