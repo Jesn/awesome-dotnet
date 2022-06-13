@@ -1,0 +1,19 @@
+
+## 理解ASP.NET Core
+
+* https://www.cnblogs.com/xiaoxiaotank/p/15185288.html
+
+## .Net Core 五中过滤器
+
+>参考文档:
+> * https://www.bbsmax.com/A/VGzl1Q1wJb/
+
+* Authorization Filters（授权过滤器）：该过滤器位于所有过滤器的顶端，首先被执行。授权过滤器用于确认请求用户是否已授权，如未授权，则可以将管道短路，禁止请求继续传递。
+  
+* Resource Filters（资源过滤器）：当授权通过后，可以在过滤器管道的其他阶段（如模型绑定）之前和之后执行自定义逻辑
+  
+* Action Filters（操作过滤器）：在调用Action之前和之后执行自定义逻辑。通过操作过滤器，可以修改要传入Action的参数，也可以设置或修改Action的返回结果。另外，其也可以首先捕获到Action中抛出的未处理异常并进行处理。
+  
+* Exception Filters（异常过滤器）：当Controller创建时、模型绑定、Action Filters和Action执行中抛出未处理的异常时，异常过滤器可以捕获并进行处理，需要注意的是，在此之前，响应正文还未被写入，这意味着你可以设置返回结果。
+  
+* Result Filters（结果过滤器）：仅当Action的执行未抛出异常，或Action Filter处理了异常时，才会执行结果过滤器，允许你在操作结果执行之前和之后执行自定义逻辑。
