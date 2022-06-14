@@ -3,16 +3,17 @@
 # 目录
 
 ## 面试
-* [C#基础语法](./面试/基础语法.md)
-* [面向对象](./面试/面向对象.md)
-* [集合](./面试/集合.md)
-* [泛型、LINQ](./面试/泛型.md)
-* [委托](./面试/委托.md)
-* [异常](./面试/异常.md)
-* [多线程](./面试/多线程.md)
-* [常见算法](./面试/算法.md)
-* [数据库](./面试/数据库.md)
-* [Redis](./面试/redis.md)
+* [C#基础语法](./job/基础语法.md)
+* [面向对象](./job/面向对象.md)
+* [集合](./job/集合.md)
+* [泛型、LINQ](./job/泛型.md)
+* [委托](./job/委托.md)
+* [异常](./job/异常.md)
+* [多线程](./job/多线程.md)
+* [常见算法](./job/算法.md)
+* [数据库](./job/数据库.md)
+* [Redis](./job/redis.md)
+* [消息队列](./job/消息队列.md)
 
 # 应用框架
 * [ASP.NET Boilerplate](https://github.com/aspnetboilerplate/aspnetboilerplate) ![GitHub Star](https://img.shields.io/github/stars/aspnetboilerplate/aspnetboilerplate) - 现代ASP.NET MVC web应用程序的入门，包含最佳实践和最流行的工具。
